@@ -12,3 +12,6 @@ If you prefer to explore the data yourself, we have you covered. The comprehensi
 The Blueprint Lakehouse Monitor is available for deployment into Azure via two different deployment approaches: Azure App Service or Azure Virtual Machine.
 
 * Learn more about the Azure App Service deployment [here](azure-app-service-deployment/azure-app-service-deployment.md)
+
+## Security Requirements
+Security requirements used in both deployment approaches are available [here](security-requirements.md)
