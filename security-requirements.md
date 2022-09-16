@@ -36,6 +36,7 @@ The signed in user will grant the application (AppService or VM) the necessary p
 The Managed identity of the AppService or System Assigned Managed Identity of the VM are going to be used to perform these background processes, these are the following roles they are being granted by the signed in user: 
 
 * `Billing Reader` role at Azure subscription level in order to allow the application to read consumption/usage details data. This operation can be done by clicking the Grant Billing Reader role button on settings page for selected Azure subscription in the Lakehouse Monitor user interface
+![Grant billing reader](./images/lhm-subscription-ui-1.png)
 
 * Create a Databricks user for the Managed Identity in the selected Databricks workspace in order to allow the application to access the Databricks job/cluster configuration (REST APIs) for background processors. This operation can be done by clicking `Grant Access` button on settings page for selected Databricks workspace in the Lakehouse Monitor user interface. The created user is part of the admins group in the workspace.
 
