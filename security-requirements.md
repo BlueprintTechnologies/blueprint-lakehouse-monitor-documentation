@@ -1,6 +1,6 @@
 ## Security Requirements for VM/AppService runtime
 
-**IMPORTANT** A user with sufficient privileges in the target tenant to  enable access is required.
+**IMPORTANT**: A user with sufficient privileges in the target tenant to  enable access is required.
 
 Here you will find the security requirements for both the Azure App Service and Azure Virtual Machine deployment. The requirements are separated into four separate phases.
 
