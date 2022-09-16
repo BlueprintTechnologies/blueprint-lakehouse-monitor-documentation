@@ -2,6 +2,8 @@
 
 
 ## Overview
+[![Blueprint Lakehouse Monitor](https://img.youtube.com/vi/w_w6J2oqHpE/0.jpg)](https://www.youtube.com/watch?v=w_w6J2oqHpE&ab_channel=Blueprint)
+
 The Blueprint Lakehouse Monitor enables you to dive deeper into the usage of your Azure Databricks environment and perform advanced analysis of cost, telemetry and usage metrics from a centralized location. The tool gives granular and continuous visibility into your clusters, jobs and notebooks, providing key insights that will allow your team to maximize utilization of your analytics platform to best serve your company.
 
 The Blueprint Lakehouse Monitor incorporates the deep experience of our team and leverages advanced analytics to increase cost transparency and enhance performance of your Azure Databricks environment. This is accomplished by consolidating all available consumption data, spark metrics and operating system-level data. The tool tracks Azure Databricks job-level metrics and leverages pattern-based analysis to alert you to outliers and optimization opportunities. This is enabled by a data enrichment process for the data across these internal platform data sources.
