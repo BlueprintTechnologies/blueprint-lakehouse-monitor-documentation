@@ -10,10 +10,8 @@ The Blueprint Lakehouse Monitor incorporates the deep experience of our team and
 
 If you prefer to explore the data yourself, we have you covered. The comprehensive set of metadata that the Blueprint Lakehouse Monitor unveils is available in an easy-to-access structure that can be analyzed through your tool of choice. Our team has included a Power BI template for download from within the tool to accelerate the process.
 
-## Deployment Approaches
-The Blueprint Lakehouse Monitor is available for deployment into Azure via two different deployment approaches: Azure App Service or Azure Virtual Machine.
-
-* Learn more about the Azure App Service deployment [here](azure-app-service-deployment/azure-app-service-deployment.md).
+## Deployment Approach
+The Blueprint Lakehouse Monitor is deployed as cloud based application into your Azure tenant. You can learn more about the Azure deployment [here](azure-app-service-deployment/azure-app-service-deployment.md).
 
 ## Security Requirements
-Security requirements used in both deployment approaches is available [here](security-requirements.md).
+The Azure security requirements used in the deployment approach is available [here](security-requirements.md).
