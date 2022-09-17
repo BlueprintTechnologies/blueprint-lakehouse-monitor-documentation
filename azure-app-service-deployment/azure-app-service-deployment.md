@@ -6,11 +6,11 @@
 
 After the deployment of the Lakehouse Monitor is complete, the provided resource group will include the following resources: 
 
-**AppService**: includes the reporting and instrumentation dashboard, background services for telemetry data analysis and recommendations, as well as consumption data scheduled runs 
+* **AppService**: includes the reporting and instrumentation dashboard, background services for telemetry data analysis and recommendations, as well as consumption data scheduled runs 
 
-**Storage Account**: used for storing all telemetry data from the Databricks workspaces and consumption/cost/usage detail data 
+* **Storage Account**: used for storing all telemetry data from the Databricks workspaces and consumption/cost/usage detail data 
 
-**KeyVault**: used for storing the storage account access key, the Azure AD App Registration client secret as well as the token store sas uri secret 
+* **KeyVault**: used for storing the storage account access key, the Azure AD App Registration client secret as well as the token store sas uri secret 
 
 Signing into the application url is done through Azure AD credentials that are authorized for access into all available subscriptions in the Azure tenant and all the Databricks workspaces in the available subscriptions.
 
