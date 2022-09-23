@@ -1,0 +1,24 @@
+version: '2.4'
+services:
+  bplm-node:
+    container_name: bplm
+    labels:
+      com.bpcs.conduit.displayName: "bplm"
+    image: blueprint.azurecr.io/bpcs/lakehouse-optimizer:1.3.0
+    restart: on-failure
+    ports:
+      - 443:8080
+      - 4040:4040
+    volumes:
+      - ./keystore:/keystore # this property should be used only if we enable ssl using spring.
+      - spring_session:/spring-session
+    env_file:
+      - .env
+    networks:
+      - bplm_net
+networks:
+  bplm_net:
+    driver: bridge
+volumes:
+  spring_session:
+    driver: local
