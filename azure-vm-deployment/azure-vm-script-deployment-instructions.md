@@ -1,6 +1,6 @@
 # Azure VM Script Deployment
 
-1. Download the deployment script (zip format) [here](test.com)
+1. Download the deployment script (zip format) [here](bplm-vm-deploy.zip)
 
 2. In the Azure portal, create a resource group for your deployment, in the same region as the Databricks workspaces you will monitor
 
@@ -28,10 +28,11 @@
 9. Once the deployment is complete you will find your ssh private key in your ~/.ssh folder in cloud shell
 
 10. The deployment script creates the following resources in the provided resource group
+![Resources created in Azure](../images/resourceGroup.png)
 
 11. Copy over necessary files to the VM, in a new folder of your choice:
 
-    a. docker-compose.yaml (attached to documentation)
+    a. docker-compose.yaml (download [here](docker-compose.yml))
 
     b. .env file (rename the envContent.txt from your cloud shell folder to .env before you copy) 
 
