@@ -28,7 +28,7 @@
    - subscription id
    - BPLM version if you haven’t specified it in the above @paramsBP object
    - BaseApplicationName is the name of the Azure AD App Registration that is going to be registered for SSO into the application
-   - ACR username and ACR password to be used by docker to pull the BPLM images from the container registry: bplm-acr-token / <password to be provided upon deployment>
+   - ACR username and ACR password to be used by docker to pull the BPLM images from the container registry: `bplm-acr-token / <password to be provided upon deployment>`
 
 9. Once the deployment is complete you will find your ssh private key in your ~/.ssh folder in cloud shell
 
