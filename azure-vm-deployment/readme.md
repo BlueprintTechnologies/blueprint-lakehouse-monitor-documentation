@@ -24,11 +24,11 @@
    `./vmdeploy.ps1 @paramsBP`
 
 8. You will be prompted for:
-   a. the name of the resource group you just created at step 1
-   b. subscription id
-   c. BPLM version if you haven’t specified it in the above @paramsBP object
-   d. BaseApplicationName is the name of the Azure AD App Registration that is going to be registered for SSO into the application
-   e. ACR username and ACR password to be used by docker to pull the BPLM images from the container registry: bplm-acr-token / <password to be provided upon deployment>
+   - the name of the resource group you just created at step 1
+   - subscription id
+   - BPLM version if you haven’t specified it in the above @paramsBP object
+   - BaseApplicationName is the name of the Azure AD App Registration that is going to be registered for SSO into the application
+   - ACR username and ACR password to be used by docker to pull the BPLM images from the container registry: bplm-acr-token / <password to be provided upon deployment>
 
 9. Once the deployment is complete you will find your ssh private key in your ~/.ssh folder in cloud shell
 
